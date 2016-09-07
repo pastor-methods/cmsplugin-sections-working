@@ -15,8 +15,8 @@
 # > python setup.py sdist upload
 #
 
-from setuptools import setup, find_packages
-from cmsplugin_sections import __version__
+from setuptools import setup
+
 
 
 INSTALL_REQUIRES = [
@@ -38,13 +38,13 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='cmsplugin-sections',
-    version=__version__,
+    name='cmsplugin_sections',
+    version='0.0.2',
     description='Plugins to aide creating “single page scroller” websites.',
-    author='Martin Koistinen',
-    author_email='mkoistinen@gmail.com',
-    url='https://github.com/mkoistinen/cmsplugin-sections',
-    packages=find_packages(),
+    author='Pastor JT',
+    author_email='pastor.methods@gmail.com',
+    url='https://github.com/pastor-methods/cmsplugin-sections-working',
+    packages=['cmsplugin_sections'],
     install_requires=INSTALL_REQUIRES,
     license='LICENSE.txt',
     platforms=['OS Independent'],
@@ -52,5 +52,5 @@ setup(
     long_description=open('README.md').read(),
     include_package_data=True,
     zip_safe=False,
-    download_url='https://github.com/mkoistinen/cmsplugin-sections/tarball/0.0.1',
+    download_url='https://github.com/pastor-methods/cmsplugin-sections-working/tarball/0.0.2',
 )
