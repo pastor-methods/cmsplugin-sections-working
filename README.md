@@ -1,6 +1,8 @@
 cmsplugin-sections
 ==================
 
+Note: this is a fork from https://github.com/febsn/cmsplugin-sections and https://github.com/mkoistinen/cmsplugin-sections/
+
 This is a plugin "system" (really just two) for making "single-page scroller"
 websites super easy.
 
@@ -58,13 +60,13 @@ that use jQuery:
 
 ## INSTALLATION
 
-`pip install cmsplugin-sections-working`
+`pip install cmsplugin-sections2==0.2.0`
 
-Then, add 'cmsplugin_sections' to your INSTALLED_APPS.
+Then, add 'cmsplugin_sections2' to your INSTALLED_APPS.
 
 If using Django 1.7, then add:
 
-	'cmsplugin_sections': 'cmsplugin_sections.migrations_django'
+	'cmsplugin_sections2': 'cmsplugin_sections2.migrations_django'
 
 to settings.MIGRATION_MODULES
 

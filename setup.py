@@ -38,13 +38,13 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='cmsplugin_sections',
-    version='0.0.2',
+    name='cmsplugin_sections2',
+    version='0.2.0',
     description='Plugins to aide creating “single page scroller” websites.',
     author='Pastor JT',
     author_email='pastor.methods@gmail.com',
     url='https://github.com/pastor-methods/cmsplugin-sections-working',
-    packages=['cmsplugin_sections'],
+    packages=['cmsplugin_sections2'],
     install_requires=INSTALL_REQUIRES,
     license='LICENSE.txt',
     platforms=['OS Independent'],
@@ -52,5 +52,5 @@ setup(
     long_description=open('README.md').read(),
     include_package_data=True,
     zip_safe=False,
-    download_url='https://github.com/pastor-methods/cmsplugin-sections-working/tarball/0.0.2',
+    download_url='https://github.com/pastor-methods/cmsplugin-sections-working/tarball/0.2.0',
 )
